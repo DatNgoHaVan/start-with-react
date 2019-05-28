@@ -42,3 +42,32 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Folder Structure
+
+Using Material-UI, SASS and TypeScript.
+
+```
+start-with-react/
+  README.md
+  node_modules/
+  package.json
+  public/
+    index.html
+    favicon.ico
+  src/
+    asserts/
+      logo.svg
+    components/
+      App.test.tsx
+      App.tsx
+    styles/
+      font/
+        ...Roboto Font Files
+      sass/
+        _app.scss
+        _font.scss
+        index.scss
+    index.tsx
+    
+```
